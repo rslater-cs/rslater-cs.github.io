@@ -163,10 +163,13 @@ button {
 @media (max-width: 800px) {
     .contactTitle {
         font-size: 16px;
+        float: none;
     }
     
     .contactContent {
         font-size: 16px;
+        float: none;
+        padding-bottom: 2vw;
     }
 }
 
