@@ -112,8 +112,8 @@ button {
     content: "";
     clear: both;
     display: table;
-    padding-top: 100px;
-    padding-bottom: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 100px;
     padding-left: 2%;
     padding-right: 2%;
 }
