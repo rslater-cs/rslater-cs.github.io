@@ -1,0 +1,186 @@
+* {
+    color: rgb(210, 210, 210);
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #141414;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(230, 230, 230);
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    color: rgb(220, 220, 220);
+}
+
+ul {
+    font-size: 20px;
+    margin: 0 auto;
+    display: table;
+    padding: 0;
+}
+
+table {
+    margin: 0 auto;
+    padding: 0; 
+}
+
+button {
+    color: rgb(0,0,0);
+}
+
+#MainTitle {
+    text-align: center;
+    font-size: 10vw;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+#leftfloat {
+    float: left;
+}
+
+#rightfloat {
+    float: right;
+}
+
+@media (max-width: 800px) {
+    #rightfloat {
+        float: none;
+        width : 100%;
+    }
+
+    #leftfloat {
+        float: none;
+        width: 100%;
+    }
+}
+
+#contactDivider {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.projectDesc {
+    width: 95%;
+    max-width: 700px;
+}
+
+.genText{
+    max-width: 600px;
+}
+
+.portraitPhoto {
+    width: 20%;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .genText {
+        max-width: 85%;
+    }
+
+    .portraitPhoto {
+        height: 70vw;
+        width: auto;
+    }
+}
+
+.dynamicText {
+    width: 60%;
+}
+
+.ProjectDivider {
+    margin: auto;
+    content: "";
+    clear: both;
+    display: table;
+    padding-top: 100px;
+    padding-bottom: 3vw;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.ProjectImage{
+    width:  50%;
+}
+
+.ProjectDescImage{
+    width: 90%;
+}
+
+.ProjectTextDivider {
+    width : 50%;
+}
+
+.ProjectText {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.ContactDetail {
+    content: "";
+    clear: both;
+    display: table;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.contactTitle {
+    float: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 2px auto;
+}
+
+.contactContent {
+    float: right;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 2px auto;
+}
+
+.brdynamic {
+    display: block;
+    margin-bottom: 5%;
+}
+
+.brlarge {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.brsmall {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dynamicDescBreak{
+    display: block;
+    margin-bottom: 15%;
+}
