@@ -46,6 +46,10 @@ button {
     color: rgb(0,0,0);
 }
 
+footer {
+    padding-bottom: 2%;
+}
+
 #MainTitle {
     text-align: center;
     font-size: 10vw;
@@ -74,7 +78,7 @@ button {
 }
 
 #contactDivider {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
 }
 
